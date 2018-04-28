@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import Header from './todo/header.vue'
-import Footer from './todo/footer.jsx'
-import todo from './todo/todo.vue'
+import Header from './layout/header.vue'
+import Footer from './layout/footer.jsx'
+import todo from './views/todo/todo.vue'
+// console.log(Header.__docs)
 export default {
- 
- components:{Header,Footer,todo}
 
- 
+  components: {Header, Footer, todo}
+
 }
 </script>
 //scoded 只在当前组件内实现
